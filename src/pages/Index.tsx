@@ -88,6 +88,12 @@ export default function Index() {
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
               </div>
+              <Button variant="ghost" asChild>
+                <a href="/ui-kit">
+                  <Icon name="Palette" size={20} className="mr-2" />
+                  UI Kit
+                </a>
+              </Button>
               <Button variant="outline" className="border-primary/50 hover:bg-primary/20 hover:text-primary">
                 <Icon name="User" size={20} className="mr-2" />
                 Войти
